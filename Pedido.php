@@ -78,19 +78,19 @@ class Pedido {
 
 }
 
-    public atribuirEntregador(){
+    public function atribuirEntregador(){
 
 }
 
-    public atualizarStatus($novoStatus, $origem){
+    public function atualizarStatus($novoStatus, $origem){
 
 }
 
-    public obterHistoricoStatus(){
+    public function obterHistoricoStatus(){
 
 }
     
-    public calcularRota() {
+    public function calcularRota() {
 
 }
 }
