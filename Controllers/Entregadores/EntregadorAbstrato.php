@@ -48,11 +48,11 @@ abstract class EntregadorAbstrato {
     public function setCapacidadeMaxima($capacidade){
     $this->capacidadeMaxima = $capacidade;
 }
-    public function getStatusCapacidade(){
-    return $this->statusCapacidade;
+    public function getStatusDisponibilidade(){
+    return $this->statusDisponibilidade;
 }
-    public function setStatusCapacidade($capacidadeStatus){
-    $this->statusCapacidade = $capacidadeStatus;
+    public function setStatusDisponibilidade($capacidadeStatus){
+    $this->statusDisponibilidade = $capacidadeStatus;
 }
     public function getUltimaComunicacao(){
     return $this->ultimaComunicacao;
