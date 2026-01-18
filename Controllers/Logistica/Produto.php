@@ -42,7 +42,7 @@ class Produto {
     }
 
     public function criarProduto($dados){
-        $stmt = $connect->prepare("INSERT INTO produtos (nome, estoque, preco) VALUES (?,0,?)")
+        $stmt = $connect->prepare("INSERT INTO produtos (nome, estoque, preco) VALUES (?,0,?)");
             $stmt->execute([$dados['nome'], $dados['preco']]) ;
     }
 }
