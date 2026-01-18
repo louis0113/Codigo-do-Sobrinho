@@ -1,6 +1,6 @@
 <?php
 
-require 'EntregadorAbstrato.php'
+require 'EntregadorAbstrato.php';
 
 class Motoboy extends EntregadorAbstrato {
 
