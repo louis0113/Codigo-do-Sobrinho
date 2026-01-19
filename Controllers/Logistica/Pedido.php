@@ -17,7 +17,7 @@ class Pedido {
     $this->dataCriacao = $dataCriacao;
     $this->status = $status;
     $this->valorTotal = $valorTotal;
-    $this->endrecoEntrega = $endrecoEntrega;
+    $this->enderecoEntrega = $enderecoEntrega;
     $this->tipoPagamento = $tipoPagamento;
     $this->timestamp = $timestamp;
     $this->conexao = $conexao;

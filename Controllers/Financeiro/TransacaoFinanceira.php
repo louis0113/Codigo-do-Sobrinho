@@ -38,10 +38,10 @@
     public function setValor($vl){
     $this->valor = $vl;
 }
-    public function getMetodoPAgamento(){
+    public function getMetodoPagamento(){
     return $this->metodoPagamento;
 }
-    public function setMetodoPaagamento($pagamento){
+    public function setMetodoPagamento($pagamento){
     $this->metodoPagamento = $pagamento;
 }
     public function getStatus(){
@@ -54,9 +54,9 @@
     return $this->timestampProcessamento;
 }
     public function setTimestampProcessamento($timestamp){
-    $this->timestmapProcessamento = $timestamp;
+    $this->timestampProcessamento = $timestamp;
 }
-    public function getCOdigoAutorizacao(){
+    public function getCodigoAutorizacao(){
     return $this->codigoAutorizacao;
 }
     public function setCodigoAutorizacao($codigo){

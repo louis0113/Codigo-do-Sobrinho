@@ -30,7 +30,7 @@ class BloqueioEstoque{
     return $this->pedidoId;
 }
     public function setPedidoId($idPedido){
-    $this->pedidoId = $new_id;
+    $this->pedidoId = $idPedido;
 }
     public function getProdutoId(){
     return $this->produtoId;

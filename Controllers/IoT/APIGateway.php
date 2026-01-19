@@ -15,7 +15,7 @@ class APIGateway{
     public function getVersaoAtual(){
     return $this->versaoAtual;
 }
-    public function setVersaoAtual$atual){
+    public function setVersaoAtual($atual){
     $this->versaoAtual = $atual;
 }
     public function getVersoesSuportadas(){
@@ -30,7 +30,7 @@ class APIGateway{
     public function setMapasCompatibilidade($mapas){
     $this->mapasCompatibilidade = $mapas;
 }
-    public function roterarRequisicoes($requsicao){
+    public function rotearRequisicao($requisicao){
     
     }
 

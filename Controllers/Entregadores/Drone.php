@@ -1,6 +1,6 @@
 <?php 
 
-require 'EntregadorAbstrato.php'
+require 'EntregadorAbstrato.php';
 
 class Drone extends EntregadorAbstrato {
 
@@ -36,12 +36,12 @@ class Drone extends EntregadorAbstrato {
     return $this->velocidadeMaxima;
 }
     public function setVelocidadeMaxima($velocidade){
-    $this->id = $velocidade;
+    $this->velocidadeMaxima = $velocidade;
 }
     public function getAutonomiaRestante(){
     return $this->autonomiaRestante;
 }
-    public function setId($autonomia){
+    public function setAutonomiaRestante($autonomia){
     $this->autonomiaRestante = $autonomia;
 }
     public function getModeloDrone(){

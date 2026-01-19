@@ -6,7 +6,7 @@ class Estoque {
     private $produtoId;
     private $quantidadeDisponivel;
     private $quantidadeReservada;
-    private $quantidadeMInima;
+    private $quantidadeMinima;
     private $localizacao;
     private $ultimaAtualizacao;
 
@@ -24,7 +24,7 @@ class Estoque {
     public function getProdutoId(){
     return $this->produtoId;
 }
-    public function setProdutoId$id){
+    public function setProdutoId($id){
     $this->produtoId = $id;
 }
     public function getQuantidadeDisponivel(){
@@ -37,7 +37,7 @@ class Estoque {
     return $this->quantidadeReservada;
 }
     public function setQuantidadeReservada($qtRes){
-    $this->quantidadeReservada = $qtReservada;
+    $this->quantidadeReservada = $qtRes;
 }
     public function getQuantidadeMinima(){
     return $this->quantidadeMinima;
@@ -49,7 +49,7 @@ class Estoque {
     return $this->localizacao;
 }
     public function setLocalizacao($localizacao){
-    $this->localizao = $localizacao;
+    $this->localizacao = $localizacao;
 }
     public function getUltimaAtualizacao(){
     return $this->ultimaAtualizacao;
@@ -60,7 +60,7 @@ class Estoque {
     public function verificarDisponibilidade($quantidade){
             
         $value = ($quantidade >= $this->quantidadeDisponivel && $this->quantidadeDisponivel != 0) ? true : false;
-        return value;
+        return $value;
     }
 
     public function bloquearEstoque($pedidoId, $quantidade, $timeout){

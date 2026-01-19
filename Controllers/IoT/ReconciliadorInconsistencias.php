@@ -52,7 +52,7 @@ class ReconciliadorInconsistencias{
     
     }
 
-    public function reguistrarAuditoria($acao, $resultado){
+    public function registrarAuditoria($acao, $resultado){
     
     }
 }

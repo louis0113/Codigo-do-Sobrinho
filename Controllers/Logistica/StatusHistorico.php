@@ -7,23 +7,17 @@
         private $statusNovo;
         private $timestamp;
         private $origem;
-        private $coodernadasOrigem;
+        private $coordenadasOrigem;
         private $observacao;
-    public function getId(){
-    return $this->id;
-}
-    public function setId($new_id){
-    $this->id = $new_id;
-}
 
-        public function __construct($id, $pedidoId, $anterior, $novo, $ts, $origem, $coodernadas, $obs){
+        public function __construct($id, $pedidoId, $anterior, $novo, $ts, $origem, $coordenadas, $obs){
             $this->id = $id;
             $this->pedidoId = $pedidoId;
             $this->statusAnterior = $anterior;
             $this->statusNovo = $novo;
             $this->timestamp = $ts;
             $this->origem = $origem;
-            $this->coodernadasOrigem = $coodernadas;
+            $this->coordenadasOrigem = $coordenadas;
             $this->observacao = $obs;        
         }
 
@@ -37,7 +31,7 @@
     return $this->pedidoId;
 }
     public function setPedidoId($idPedido){
-    $this->idPedido = $idPedido;
+    $this->pedidoId = $idPedido;
 }
     public function getStatusAnterior(){
     return $this->statusAnterior;
@@ -63,11 +57,11 @@
     public function setOrigem($origem){
     $this->origem = $origem;
 }
-    public function getCoodernadasOrigem(){
-    return $this->coodernadasOrigem;
+    public function getCoordenadasOrigem(){
+    return $this->coordenadasOrigem;
 }
-    public function setCoodernadasOrigem($coodernadas){
-    $this->coodernadasOrifem = $coodernadas;
+    public function setCoordenadasOrigem($coordenadas){
+    $this->coordenadasOrigem = $coordenadas;
 }
     public function getObservacao(){
     return $this->observacao;

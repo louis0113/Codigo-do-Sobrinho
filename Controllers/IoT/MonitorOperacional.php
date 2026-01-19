@@ -23,7 +23,7 @@ class MonitorOperacional {
     public function getPedidosEmAndamento(){
     return $this->pedidosEmAndamento;
 }
-    public function setIPedidosEmAndamento($pedidos){
+    public function setPedidosEmAndamento($pedidos){
     $this->pedidosEmAndamento = $pedidos;
 }
     public function getAlertasAtivos(){
@@ -50,7 +50,7 @@ class MonitorOperacional {
     
     }
 
-    public function notificarOperaodr($alerta){
+    public function notificarOperador($alerta){
     
     }
 
