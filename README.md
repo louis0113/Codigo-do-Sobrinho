@@ -23,7 +23,7 @@ Este projeto contém o código fonte do sistema original da LogiDrone, refatorad
 ## Instalação
 
 ### Pré-requisitos
-- PHP 7.4 ou superior
+- PHP 8.0 ou superior
 - MySQL 5.7 ou superior (recomendado 8.0+)
 - Composer (opcional, para gerenciamento de dependências futuro)
 
